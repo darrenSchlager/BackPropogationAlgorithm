@@ -168,12 +168,12 @@ public class BackPropogationAlgorithm {
 		// print description of expeteted file contents
 		System.out.println("BackPropogationAlgorithm\n");
 		System.out.println("Format your file as follows:");
-		System.out.println("===============================================================================================");
+		System.out.println("=========================================================================================================");
 		System.out.println(" <alpha> <beta> <gamma> <delta> <epsilon>");
-		System.out.println(" <number of inputs> <number of nodes in the middle layer> <number of outputs> <default weight>");
+		System.out.println(" <number of input nodes> <number of nodes in the middle layer> <number of output nodes> <default weight>");
 		System.out.println(" <input 1> <input 2> ... <input n>");
 		System.out.println(" <expected output 1> <expected output  2> ... <expected output  n>");
-		System.out.println("===============================================================================================");
+		System.out.println("=========================================================================================================");
 		
 		Scanner file;
 		boolean fileProcessedSuccessfully = false;
